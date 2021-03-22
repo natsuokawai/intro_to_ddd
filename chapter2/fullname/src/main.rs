@@ -1,5 +1,5 @@
-use std::fmt;
 use regex::Regex;
+use std::fmt;
 
 fn main() {
     let name = FullName::new(String::from("Natsuo"), String::from("Kawai"));
